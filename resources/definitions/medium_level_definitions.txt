@@ -1,0 +1,50 @@
+
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:In the Moon
+ball_velocities:45,550 30,550
+background:image(background_images/moon_background.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/clouds_block_definition.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:24
+START_BLOCKS
+-
+-
+-
+-
+-lllllllllllll--
+--zzzzzzzzzzz---
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Complicated pattern
+
+START_LEVEL
+level_name: Block level 2
+ball_velocities:45,550 46,550 47,550
+background:image(background_images/stars_background.jpg)
+paddle_speed:600
+paddle_width:250
+block_definitions:definitions/medium_level_second_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:21
+START_BLOCKS
+-
+-
+----aaaaaaaaa---
+-----bbbbbbb----
+------ccccc-
+------
+
+END_BLOCKS
+END_LEVEL
+
